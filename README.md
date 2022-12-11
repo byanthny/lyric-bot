@@ -61,4 +61,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Acknowledgments
 
-- []()
+- [Discord.py](https://discordpy.readthedocs.io/en/stable/index.html)
+- [Musixmatch API](https://developer.musixmatch.com/)
