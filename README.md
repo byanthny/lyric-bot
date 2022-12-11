@@ -35,13 +35,23 @@ This is just a temporary project I don't plan on continually maintaining it, use
 
 ### Prerequisites
 
+- Python
+- Discord Token (TODO add required permissions)
+- Musixmatch API Token
+
 ### Installation
+
+1. Run `pip install src/requiremtes.txt`
+2. Add tokens to production environment or `.env` file to `/src` (see `sample.env` for reference).
+3. Run `python src/main.py` to start bot
 
 # Technical Stuff
 
 Built with <3
 
 - Python
+- Musixmmatch API
+- Discord
 
 ---
 
