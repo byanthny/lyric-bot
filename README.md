@@ -9,7 +9,7 @@
   <p align="center">
     [In Progress] Discord bot that sends lyrics of the day
     <br />
-    <a href="#">Invite Lyric-Bot</a>
+    <a href="https://discord.com/api/oauth2/authorize?client_id=1051553032405524500&permissions=2147559488&scope=bot">Invite Lyric-Bot</a>
   </p>
 </div>
 
