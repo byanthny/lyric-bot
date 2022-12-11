@@ -1,4 +1,7 @@
+import os
+from dotenv import load_dotenv
 import bot
 
 if __name__ == "__main__":
-    bot.run()
+    load_dotenv()
+    bot.run(os.getenv('DISCORD_TOKEN'))
