@@ -10,6 +10,6 @@ def run(token):
 
     @client.event
     async def on_ready():
-        print('Hello, World!')
+        print(f'Connected as {client.user}')
 
     client.run(token)

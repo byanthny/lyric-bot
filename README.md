@@ -29,7 +29,7 @@
 
 Discord bot that sends lyrics of the day made with python.
 
-This is just a temporary project I don't plan on continually maintaining it, use at your own risk.
+This is just a temporary project I don't plan on continually maintaining it, **use at your own risk**.
 
 # Getting Started
 
@@ -41,8 +41,8 @@ This is just a temporary project I don't plan on continually maintaining it, use
 
 ### Installation
 
-1. Run `pip install src/requiremtes.txt`
-2. Add tokens to production environment or `.env` file to `/src` (see `sample.env` for reference).
+1. Run `pip install src/requirements.txt`
+2. Add tokens to production environment or `src/.env` (see `sample.env` for reference).
 3. Run `python src/main.py` to start bot
 
 # Technical Stuff
