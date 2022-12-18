@@ -1,5 +1,4 @@
 import discord
-import responses
 
 
 async def send_message(message, user_message, private):
@@ -11,5 +10,13 @@ def run(token):
     @client.event
     async def on_ready():
         print(f'Connected as {client.user}')
+
+    @client.event
+    async def on_message(message):
+        if message.author == client.user:
+            return
+
+        if message.content.startswith('$lyric'):
+            await message.channel.send('> Something')
 
     client.run(token)

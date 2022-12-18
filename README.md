@@ -28,7 +28,6 @@
 # Description
 
 Discord bot that sends lyrics of the day made with python.
-
 This is just a temporary project I don't plan on continually maintaining it, **use at your own risk**.
 
 # Getting Started
