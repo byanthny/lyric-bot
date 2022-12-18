@@ -1,22 +1,14 @@
 import discord
 
-
-async def send_message(message, user_message, private):
-    print("Sending Message")
-
 def run(token):
-    client = discord.Client(intents=discord.Intents.default())
+    bot = discord.Bot()
 
-    @client.event
+    @bot.event
     async def on_ready():
-        print(f'Connected as {client.user}')
+        print(f"{bot.user} is ready and online!")
 
-    @client.event
-    async def on_message(message):
-        if message.author == client.user:
-            return
+    @bot.slash_command(name = "hello", description = "Say hello to the bot")
+    async def hello(ctx):
+        await ctx.respond("Hey!")
 
-        if message.content.startswith('$lyric'):
-            await message.channel.send('> Something')
-
-    client.run(token)
+    bot.run(token)
