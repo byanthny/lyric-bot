@@ -9,13 +9,14 @@
   <p align="center">
     [In Progress] Discord bot that sends lyrics of the day
     <br />
-    <a href="https://discord.com/api/oauth2/authorize?client_id=1051553032405524500&permissions=2147559488&scope=bot">Invite Lyric-Bot</a>
+    <a href="#">No Link (due to lyrics and copyright :[.)</a>
   </p>
 </div>
 
 ## Table of Contents
 
 - [Description](#description)
+  - [Features](#features)
 - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
@@ -28,15 +29,24 @@
 # Description
 
 Discord bot that sends lyrics of the day made with python.
-This is just a temporary project I don't plan on continually maintaining it, **use at your own risk**.
+
+This is just a temporary project I don't plan on continually maintaining it.
+
+> Using LyricsGenius to search and scrape Genius pages for lyrics. Couldn't find a free lyric api and musixmatch was geared towards companies requiring too much personal info to sign up for free testing plan.
+
+**_For Education Purposes Only_** or whatever jargon to not get sued by the evil copyright people killing creativity.
+
+## Features
+
+- `/lyric` - get random lyric
 
 # Getting Started
 
 ### Prerequisites
 
 - Python
-- Discord Token (TODO add required permissions)
-- Musixmatch API Token
+- Discord Token (**TODO** add required permissions)
+- Genius API Token
 
 ### Installation
 
@@ -49,7 +59,9 @@ This is just a temporary project I don't plan on continually maintaining it, **u
 Built with <3
 
 - Python
-- Musixmmatch API
+  - LyricsGenius
+  - pycord
+- Genius API
 - Discord
 
 ---
@@ -60,5 +72,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Acknowledgments
 
-- [Discord.py](https://discordpy.readthedocs.io/en/stable/index.html)
-- [Musixmatch API](https://developer.musixmatch.com/)
+- [pycord](https://github.com/Pycord-Development/pycord)
+- [LyricsGenius](https://github.com/johnwmillr/LyricsGenius)
+- [Genius API](https://genius.com/developers)
