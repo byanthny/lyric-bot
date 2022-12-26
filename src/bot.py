@@ -1,7 +1,9 @@
 import discord
+import lyricsgenius
 
-def run(token):
+def run(discord_token, genius_token):
     bot = discord.Bot()
+    genius = lyricsgenius.Genius(genius_token)
 
     @bot.event
     async def on_ready():
@@ -11,4 +13,4 @@ def run(token):
     async def hello(ctx):
         await ctx.respond("> Lyric goes here")
 
-    bot.run(token)
+    bot.run(discord_token)

@@ -9,7 +9,7 @@
   <p align="center">
     [In Progress] Discord bot that sends lyrics of the day
     <br />
-    <a href="#">No Link (due to lyrics and copyright :[.)</a>
+    <a href="#">No Link :[</a>
   </p>
 </div>
 
